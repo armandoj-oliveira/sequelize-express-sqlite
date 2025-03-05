@@ -1,4 +1,11 @@
-node_modules
-.git
-./vs
+.vscode/
+.idea/
+dist/
+temp/
+.cache/
+logs/
 .env
+.sequelizerc
+database.sqlite
+node_modules/
+package-lock.json
