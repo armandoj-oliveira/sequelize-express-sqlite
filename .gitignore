@@ -1,11 +1,14 @@
+# Diretórios
 .vscode/
 .idea/
 dist/
 temp/
 .cache/
 logs/
+node_modules/
+
+# Arquivos
 .env
 .sequelizerc
 database.sqlite
-node_modules/
 package-lock.json
