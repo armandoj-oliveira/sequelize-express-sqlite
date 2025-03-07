@@ -15,7 +15,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Categoria',
-    tableName: 'categorias'
+    tableName: 'categorias',
+    paranoid: true //  Permite desativar um usuário sem removê-lo do banco.
   });
   return Categoria;
 };

@@ -23,7 +23,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Curso',
-    tableName: 'cursos'
+    tableName: 'cursos',
+    paranoid: true //  Permite desativar um usuário sem removê-lo do banco.
   });
   return Curso;
 };
